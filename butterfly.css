@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: right;
+   
+   
+}
+.container a
+{
+    color: darkgrey;
+    text-decoration: none;
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.container a:hover
+{
+    background-color:white;
+    transition: .5s ease-in-out;
+}
+.section-container
+{
+    display: flex;
+    background-image: url(butterfly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+
+}
+.main1 h1
+{
+    color:darkgrey;
+    font-size: 60px;
+    mix-blend-mode: overlay;
+}
+
+
+.main1 button{
+   
+    background-color:cadetblue;
+    margin-left: 450px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darksalmon;
+    border-style: groove;
+
+   
+    
+
+}
+
+button:hover{
+    
+    background-color: darkseagreen;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+/*section start*/
+.section {
+    
+    width: 100%;
+    background-color:ivory;
+    display: flex;
+    
+}   
+#text
+{  
+   
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: rgb(157, 238, 157);
+
+}
+.section1,.section2,.section3
+{   
+    margin:30px;
+    border-radius: 50px;
+    border-style: 2px dashed black;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(157, 238, 157);
+    
+}
+
+#image1
+{
+    margin-top: 10px;
+    margin-left: 40px;  
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+#para1
+{
+    text-align: center;
+    color: lightcyan;
+    padding-top: 20px;
+}
